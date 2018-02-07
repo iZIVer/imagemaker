@@ -1,0 +1,39 @@
+<html>
+
+<head>
+	<title>Imagemaker</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<h1>How it work</h1>
+		</div>
+		<div class="row">
+			<form id="upload_form" enctype="multipart/form-data" action="/upload" method="post">
+				<div class="row">
+					<div class="form-group">
+						<label for="inputFile">1. </label>
+						<input id="inputFile" type="file" name="file" class="btn btn-default" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="form-group">
+						<label for="uploadFile">2. </label>
+						<input id="uploadFile" type="submit" class="btn btn-primary" value="Upload image" style="margin: .375rem .75rem" />
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="row">
+			<h1>Results</h1>
+		</div>
+		<div class="row" id="results"></div>
+	</div>
+</body>
+
+<script src="js/constructor.js"></script>
+
+</html>

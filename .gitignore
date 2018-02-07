@@ -1,0 +1,6 @@
+# Intellij IDEA
+.idea/**
+*.iml
+
+*.exe
+*.dll
